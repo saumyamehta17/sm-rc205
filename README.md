@@ -1,10 +1,11 @@
-Railscast sm-rc205
-====================
+Railscast sm-rc205 and sm-rc206
+================================
 Git clone
 ```
 git clone 'https://github.com/sweetymehta/sm-rc205.git'
 ```
-
+sm-rc205
+--------------
 csrf_meta_tag
 ```
 cross site request forgery(imitation of doc) ,these element prevents cross site request forgery when users enter form input.
@@ -14,6 +15,37 @@ See diff of abtrosive and unabtrosive javascript
 ```
 see articles/index.html.erb
 ```
+
+sm-rc206
+-----------------
+ActionMailer (localhost:3000/users)
+```
+it will allow to send mails. will be inherited from ActionMailer::Base and live in app/mailers
+```
+scaffolding user
+````
+#todo
+```
+intial configuration
+```
+create setup_mail.rb under intializers and paste some setting
+```
+now run
+```
+rails g mailer user_mailer
+```
+refer mailers/user_mailer.rb
+```
+create view part under views/user_mailer
+```
+just create text file
+#todo
+```
+Note:
+```
+give correct username and email in setup_mail.rb
+```
+
 Rails server
 ```
 rails s
