@@ -10,4 +10,4 @@ ActionMailer::Base.smtp_settings = {
 
 #To navigate user to host to edit his/her profile
 
-ActionMailer::Base.default_url_options = {host: 'localhost:3000'}
+ActionMailer::Base.default_url_options = { :host => 'localhost:3000' }

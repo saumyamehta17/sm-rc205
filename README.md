@@ -40,10 +40,19 @@ create view part under views/user_mailer
 ```
 just create text file
 #todo
-```
+```<p><%= url_for :controller=>'posts', :action=>index', host: 'localhost', port: '3000' %></p>s
 Note:
 ```
 give correct username and email in setup_mail.rb
+```
+To avail facility on mail to edit profile
+```
+use url instead path as it it is new request
+see registration_confirmation.html.erb
+```
+To have attachments
+```
+see user_mailer.rb
 ```
 
 Rails server
